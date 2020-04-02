@@ -39,3 +39,9 @@ After all of that, you should also add the gitignore and commit it to the reposi
 1. Press Esc
 2. Type :wq  or :x (x-writes buffer to the file only but wq-writes buffer to the file and update the modification time)
 3. Press Enter        
+
+# How to checkout to other branch with all changes and without commits and comeback to current branch and get the changes
+1. git stash
+2. git checkout otherbranch
+3. git checkout currentbranch
+4. git stash pop ----to get back the changes
