@@ -45,3 +45,6 @@ After all of that, you should also add the gitignore and commit it to the reposi
 2. git checkout otherbranch
 3. git checkout currentbranch
 4. git stash pop ----to get back the changes
+
+# How to update your password changes in github
+1. git remote set-url origin https://github.vcp.vzwnet.com/VCP/vcpui.git/
